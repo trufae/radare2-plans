@@ -16,7 +16,7 @@ for each algorithm in requested_algorithms:
     read file in blocks
     process each block through algorithm
     apply iterations/stretching if needed
-    print results
+print results
 ```
 
 Without r_hash, this must use r_muta. But creating N independent sessions for N algorithms and feeding them the same data N times (once per loop iteration) is inefficient. We need a way to:

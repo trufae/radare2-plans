@@ -1,0 +1,1 @@
+the recursive analysis takes a lot of stack space which is done at basic block level and that limits the size of functions we can analyze before having a segfaults. also the problem of this is that we cant paralelize the analysis, a proper redesign will be needed to resolve this problem

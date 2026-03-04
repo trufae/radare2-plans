@@ -275,7 +275,7 @@ Implement specialized memory pools:
 ## Testing Strategy
 
 ### 1. Unit Tests
-- Each优化 component independently tested
+- Each component independently tested
 - Boundary conditions and edge cases
 - Memory leak validation
 - Performance regression testing
